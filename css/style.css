@@ -1,0 +1,76 @@
+/* -----google fonts poppiens---------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.102);
+}
+/* ------carousel customization--------- */
+.carousel-customiz{
+    width: 100%;
+    height: 525px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.carousel-customiz-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 450px;
+    height: 310px;
+    text-align: center;
+}
+.slider-one{
+    background-image: url(../images/banner.png);
+}
+.slider-tow{
+    background-image: url(../images/Banner2.jpg);
+}
+.slider-three{
+    background-image: url(../images/banner3.jpg);
+}
+/* ------End carousel customization--------- */
+/* -----card design------ */
+ h2,h3{
+    color: #231D4F;
+}
+.card>p{
+    color: #848199;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card p i{
+    color: #5243C2;
+}
+.card-style{
+    position: relative;
+    top: -50px;
+}
+.card-style::before{
+    content: 'Hot';
+    position: absolute;
+    top: -22px;
+    width: 50px;
+    height: 50px;
+    background-color: #FF4E4E;
+    /* left: 142px; */
+    border-radius: 17%;
+    padding-top: 10px;
+    padding-left: 12px;
+    right: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+/* ------side-bar---- */
+.side-bar{
+    height: 8px;
+    
+    border: 1px solid #0D6EFD;
+    padding-right: 5px;
+    background-color: #0D6EFD;
+    border-radius: 5px;
+    margin-right: 5px;
+}
